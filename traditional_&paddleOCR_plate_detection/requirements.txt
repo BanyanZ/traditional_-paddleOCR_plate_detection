@@ -1,0 +1,23 @@
+# 车牌识别项目依赖库
+# Python版本推荐: 3.9
+# 安装命令: pip install -r requirements.txt
+# 如果安装慢，可使用国内镜像: pip install -r "C:\Users\Lenovo\PycharmProjects\PythonProject\24369365-张家榕-图像处理期末设计\requirements.txt" -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 图像处理和计算机视觉
+opencv-python>=4.5.0,<5.0.0
+
+# OCR文字识别（需要先安装paddlepaddle，再安装paddleocr）
+paddlepaddle>=2.4.0,<3.0.0
+paddleocr>=2.6.0,<3.0.0
+
+# 数值计算
+numpy>=1.19.0,<2.0.0
+
+# 数据可视化
+matplotlib>=3.3.0,<4.0.0
+
+# 创建窗口
+PyQt5
+
+# 运行必要的安装配件
+kernel
